@@ -13,8 +13,6 @@ intents.message_content = True
 
 bot = commands.Bot(command_prefix="!", intents = intents)
 
-print("Çay")
-
 @bot.event
 async def on_read():
     print(f"{bot.user.name} is ready")
